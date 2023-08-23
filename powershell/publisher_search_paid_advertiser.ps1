@@ -1,4 +1,4 @@
-﻿cd $pwd
+cd $pwd
 1..10 | % { write "" }
 
 #2531921
@@ -42,6 +42,7 @@ while($true)
             {
                 write-host "txid" $tx_json.tx[$tx_id] "advertiser data found" $op_data
                 write-host $op_text
+                write-host "publisher address received " $tx_op_json.vout[0].scriptPubKey.addresses[0] $tx_op_json.vout[0].value
             }
         }
     }
