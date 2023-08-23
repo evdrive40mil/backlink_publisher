@@ -5,6 +5,3 @@ The higher the number of these “votes” you manage, the higher your site will
 
 ![alt text](https://github.com/evdrive40mil/backlink_publisher/blob/main/doc/page_offer_tx.PNG?raw=true)
 
-Create publisher page pricing raw tx output
-
-![alt text](https://github.com/evdrive40mil/backlink_publisher/blob/main/doc/raw_tx_publisher_price.PNG?raw=true)
