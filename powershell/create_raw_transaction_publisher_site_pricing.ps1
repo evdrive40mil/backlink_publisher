@@ -1,4 +1,4 @@
-﻿cd $pwd
+cd $pwd
 1..10 | % { write "" }
 
 echo "Set pricing for backlinks on publisher site page"
@@ -11,7 +11,7 @@ $tx_vout_count = Read-Host "enter spend from transaction id vout number ex(0)"
 
 
 
-$data_string = [System.String]::Concat("publisher_page:",$publisher_page_link," ","day_price:",$publisher_day_price," publisher_wallet:",$publisher_wallet_address)
+$data_string = [System.String]::Concat($publisher_page_link,":",$publisher_day_price,":",$publisher_wallet_address)
 echo $data_string
 echo "hex encoded data for transaction"
 
@@ -27,7 +27,7 @@ Foreach ($element in $char_array)
 
 write-host $hex_data
 $cmd_a = "`"[{`\`"txid`\`":`\`"$tx_vout`\`",`\`"vout`\`":$tx_vout_count}]`"" 
-$cmd_b = "`"[{`\`"$publisher_wallet_address`\`":0.0001}, {`\`"data`\`":`\`"$hex_data`\`"}]`""
+$cmd_b = "`"[{`\`"$publisher_wallet_address`\`":0.009}, {`\`"data`\`":`\`"$hex_data`\`"}]`""
 write-host $cmd_a
 write-host $cmd_b
 
