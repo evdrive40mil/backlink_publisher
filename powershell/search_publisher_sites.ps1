@@ -39,7 +39,7 @@ while($true)
             $op_data = $op_data.Replace('OP_RETURN ', '')
 
             $op_text = -join ($op_data -split '(..)' | ? { $_ } | % { [char][convert]::ToUInt32($_,16) })
-            if ($op_text -like "url:*") 
+            if ($op_text -like "backlink_sale:*") 
             {
                 write-host "txid" $tx_json.tx[$tx_id] "publisher data found" $op_data
                 write-host $op_text
