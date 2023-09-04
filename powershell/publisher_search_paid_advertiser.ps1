@@ -38,7 +38,7 @@ while($true)
             $op_data = $op_data.Replace('OP_RETURN ', '')
 
             $op_text = -join ($op_data -split '(..)' | ? { $_ } | % { [char][convert]::ToUInt32($_,16) })
-            if ($op_text -like "adv:*") 
+            if ($op_text -like "place_link:*") 
             {
                 write-host "txid" $tx_json.tx[$tx_id] "advertiser data found" $op_data
                 write-host $op_text
