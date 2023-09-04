@@ -1,0 +1,4 @@
+After paid links found 
+place_link:summerblog.ws days:10
+Link inserted on web page
+<a href="summerblog.ws" class="nav-link-plain w-nav-link">Summer Blog</a>
