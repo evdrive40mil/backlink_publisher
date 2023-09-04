@@ -1,0 +1,10 @@
+Open in console 
+https://github.com/seopub/backlink_publisher/blob/main/powershell/publisher_search_paid_advertiser.ps1
+
+Output
+2539045
+blockhash
+64cc5ddd85638acfeff92970d008ea8b73aa74c65d8b56b5dc02e7f9cefd3173
+txid 0136517363e54b90c3276e23e668fca7b1e03e8b3302518e95c3a1786d46876a advertiser data found 706c6163655f6c696e6b3a73756d6d6572626c6f672e777320646179733a3130
+place_link:summerblog.ws days:10
+publisher address received  ltc1qmxxdtcrr52jaxrwfdt78m074jykjltaj5ztvad 0.00010000
