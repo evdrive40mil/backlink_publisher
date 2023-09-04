@@ -5,3 +5,4 @@ The higher the number of these “votes” you manage, the higher your site will
 
 ![alt text](https://github.com/seopub/backlink_publisher/blob/c00967bc0dcb65749c2e2bf0cf2e42de95fd7dae/img/publisher_page_tx.PNG?raw=true)
 
+![alt text](https://github.com/seopub/backlink_publisher/blob/main/img/advertiser_tx.PNG?raw=true)
