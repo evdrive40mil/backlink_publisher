@@ -1,0 +1,13 @@
+First step search chain transactions for backlink_sale: OP_RETURN hex data decoded
+
+Command
+In console open github.com/seopub/backlink_publisher/blob/main/powershell/search_publisher_sites.ps1
+
+Output
+2539025
+blockhash
+94dbee6ced960a6bba2cfe7b7141f0c34f5c9fefa9b0aaff32ebd386a281cef7
+txid 877c8d03f0748721b3e9d887edf963829363d288ccfb9cca009d2442e07e822f publisher data found 6261636b6c696e6b5f73616c653a73656f7075622e6769746875622e696f206461795f70726963653a302e30303032
+3a6c74630a
+
+backlink_sale:seopub.github.io day_price:0.0002:ltc
